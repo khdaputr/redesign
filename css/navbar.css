@@ -1,0 +1,74 @@
+.navbar{ 
+    background-color: #52a1da !important;
+} 
+.navbar .navbar-brand{ 
+    color : #fff;
+    font-weight: bolder;
+    font-size: 1.3em;
+} 
+.navbar .nav-item a{ 
+    color: #fff !important;
+    margin-right: 30px;
+    
+}
+
+.navbar .nav-item a:hover,
+.navbar .navbar-brand:hover,
+#navbarMenu button:hover{ 
+    color: #02ffee !important;
+}
+.resize {
+    width: 100%;
+    height: auto;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    width: 113.15px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#navbarMenu button {
+    border-radius: 20px;
+    font-weight: bold;
+}
+.navbar .dropdown-menu{ 
+    background-color: rgba(0,0,0,0.3); 
+} 
+.dropdown-item:hover{ 
+    background-color: rgba(0,0,0,0.3); 
+} 
+.navbar form button{ 
+    background-color: #ea00b1;
+    color:#000; 
+    border:0; 
+} 
+.navbar form button:hover{ 
+    background-color: #000; 
+}

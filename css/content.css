@@ -1,0 +1,52 @@
+body{
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1, h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.title {
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#joinServer button {
+    border-radius: 30px;
+    width: 200px;
+    height: 65px;
+}
+.joinServer {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size:60px; 
+    text-align: center;
+}
+img[alt="Free Web Hosting"] {
+    display: none;
+}
+.parallax {
+    background: url("../img/banner.png") no-repeat;
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+a {
+    color: white;
+}
+.scoreboard {
+    font-size:60px; 
+    text-align: center;
+}
